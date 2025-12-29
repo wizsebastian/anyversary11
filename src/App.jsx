@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Heart, Stars, Globe, RefreshCcw, Sparkles, Loader2, ChevronRight } from 'lucide-react';
 import imgPast from './assets/IMG_4580.JPG';
-import imgFuture from './assets/IMG_5150.HEIC';
+import imgFuture from './assets/IMG_5150.jpg';
 
 // Configuración de la API
 const apiKey = import.meta.env.VITE_GEMINI_API_KEY || "";
